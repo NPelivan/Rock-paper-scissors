@@ -6,7 +6,7 @@ export enum Choice {
     Spock = 'spock',
 }
 
-export const GetWinner = (playerChoice: Choice, conputerChoice: Choice): string => {
+export const getWinner = (playerChoice: Choice, conputerChoice: Choice): string => {
     if (playerChoice === conputerChoice) return 'It\'s a tie!';
 
     switch (playerChoice) {
